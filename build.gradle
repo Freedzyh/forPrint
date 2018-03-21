@@ -1,0 +1,114 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.9.RELEASE'
+	}
+	ext.kotlin_version = '1.2.10'
+
+	repositories {
+		mavenCentral()
+
+		maven { url 'https://jitpack.io' }
+	}
+	dependencies {
+		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+group = 'com.bidanet.workflow'
+version = '0.0.1-SNAPSHOT'
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'idea'
+
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.8
+
+
+idea {
+	module {
+		sourceDirs += file('generated/generated')
+	}
+}
+
+
+
+repositories {
+	mavenCentral()
+	maven { url 'https://jitpack.io'}
+	jcenter()
+}
+
+compileKotlin {
+	kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+	kotlinOptions.jvmTarget = "1.8"
+}
+
+
+
+dependencies {
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+
+	compile('org.springframework.boot:spring-boot-starter-aop')
+	compile('org.springframework.boot:spring-boot-starter-cache')
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile('org.springframework.boot:spring-boot-starter-data-redis')
+	compile('org.springframework.boot:spring-boot-starter-freemarker')
+	compile('org.springframework.boot:spring-boot-starter-mail')
+//	compile 'org.apache.shiro:shiro-spring:1.2.5'
+	compile 'com.github.xuejike:spring-boot-shiro:81640ec'
+//	compile('org.springframework.session:spring-session')
+	compile('org.springframework.boot:spring-boot-starter-web')
+//	runtime('org.springframework.boot:spring-boot-devtools')
+	runtime('mysql:mysql-connector-java')
+	compileOnly('org.springframework.boot:spring-boot-configuration-processor')
+	compileOnly('org.projectlombok:lombok')
+//	compile 'com.github.xuejike:hibernate-lambda-query:0.1.4bate4.2.14'
+//    compile 'com.github.xuejike:bd_framework_core:v0.1.5.8_starter'
+	compile 'com.qiniu:qiniu-java-sdk:7.1.1'
+	compile 'joda-time:joda-time:2.3'
+	compile 'org.jeecg:easypoi-base:2.1.5'
+	compile 'org.jeecg:easypoi-web:2.1.5'
+	compile 'org.jeecg:easypoi-annotation:2.1.5'
+
+	compile group: 'com.github.xuejike', name: 'bd_framework_core', version:'v0.1.5.9_starter'
+
+	compile 'com.querydsl:querydsl-jpa:4.1.4'
+	compile 'com.querydsl:querydsl-apt:4.1.4:jpa'
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+	compile 'com.github.xuejike:spring_xuejike_tpl:b712b0e'
+	compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+	//Fill this in with the version of kotlinx in use in your project
+	compile ('com.github.xuejike:hibernate-lambda-query:aa3240ab9e')
+			{
+				exclude(module:"hibernate-core")
+			}
+
+	compile group: 'com.github.xuejike', name: 'spring_druid_starter', version:'v0.1'
+
+	compile 'joda-time:joda-time:2.9.9'
+	// include for server side
+	compile "org.jetbrains.kotlinx:kotlinx-html-jvm:0.6.6"
+	compile ('org.jadira.usertype:usertype.core:5.0.0.GA'){
+		exclude(module:"hibernate-entitymanager")
+//        transitive = true
+//        exclude "org.hibernate:hibernate-entitymanager "
+//        exclude group "org.hibernate" module "hibernate-entitymanager"
+//        org.hibernate:hibernate-entitymanager:5.0.12.Final
+	}
+	compile 'xml-apis:xml-apis:1.4.01'
+
+	compile group: 'com.belerweb', name: 'pinyin4j', version: '2.5.0'
+
+
+//    compile group: 'com.atlassian.clover', name: 'clover',version: '4.0.3'
+}
+
+
