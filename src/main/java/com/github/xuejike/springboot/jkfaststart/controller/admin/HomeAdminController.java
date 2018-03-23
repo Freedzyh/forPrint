@@ -17,6 +17,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  * 后台主页
+ *
  * @author xuejike
  */
 @RequestMapping(JkConfig.ADMIN_PATH)
@@ -27,22 +28,22 @@ public class HomeAdminController {
     QueryDslTool queryDslTool;
 
 
-    @RequestMapping({"/","/index"})
-    public void index(Model model){
+    @RequestMapping({"/", "/index"})
+    public void index(Model model) {
         String nickName = ShiroUtils.getLoginUser().getNickName();
-        model.addAttribute("nickName",nickName);
+        model.addAttribute("nickName", nickName);
     }
 
 
-
-    @RequestMapping(value = "/public/login",method = RequestMethod.GET)
-    public void login(){
+    @RequestMapping(value = "/public/login", method = RequestMethod.GET)
+    public void login() {
 
     }
-    @RequestMapping(value = "/public/login",method = RequestMethod.POST)
+
+    @RequestMapping(value = "/public/login", method = RequestMethod.POST)
     public void loginPost(@ModelAttribute("username") String username,
-                            @ModelAttribute("pwd")String pwd, Model model,
-                            ServletRequest request){
+                          @ModelAttribute("pwd") String pwd, Model model,
+                          ServletRequest request) {
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken token = new UsernamePasswordToken(username, pwd);
         try {
@@ -50,16 +51,16 @@ public class HomeAdminController {
 
             subject.login(token);
 
-        }catch (Exception ex){
-            model.addAttribute("msg",ex.getMessage());
+        } catch (Exception ex) {
+            model.addAttribute("msg", ex.getMessage());
 //            ex.printStackTrace();
         }
 
 
-
     }
+
     @RequestMapping(value = "/public/logout")
-    public String loginError(HttpSession session){
+    public String loginError(HttpSession session) {
         SecurityUtils.getSubject().logout();
         return "redirect:../index";
 //        Session session1 = SecurityUtils.getSubject().getSession();
@@ -70,7 +71,7 @@ public class HomeAdminController {
 
     @ExceptionHandler(Exception.class)
     @ResponseBody
-    public String error(Exception ex){
+    public String error(Exception ex) {
         ex.printStackTrace();
         return "error";
     }
