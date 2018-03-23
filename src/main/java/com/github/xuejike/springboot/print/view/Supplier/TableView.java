@@ -13,7 +13,7 @@ import java.math.BigDecimal;
  */
 @Data
 @JkTable
-@JkDataSource(type = JkSourceType.url, url = "/admin/supplier/getPageData")
+@JkDataSource(type = JkSourceType.url, url = "/api/admin/supplier/getPageData")
 public class TableView {
     @JkColumn(title = "编号")
     private Long id;
@@ -26,7 +26,7 @@ public class TableView {
     @JkColumn(title = "电话")
     private Long telephone;
     @JkColumn(title = "地址")
-    private BigDecimal address;
+    private String address;
     @JkColumn(title = "操作", fixed = JkColumnAlign.right, width = 180)
     @JkToolBar(btns = {
             @JkButton(value = "查看详情",

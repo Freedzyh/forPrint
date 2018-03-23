@@ -3,6 +3,8 @@ package com.github.xuejike.springboot.print.service;
 import com.bidanet.bdcms.core.vo.Page;
 import com.github.xuejike.springboot.print.entity.Process;
 
+import java.util.List;
+
 /**
  * Created by xuemingyu 2018/3/22
  */
@@ -14,4 +16,8 @@ public interface ProcessService extends BaseService<Process> {
     void update(Process process);
 
     void delete(Long id);
+
+    void addSubclass(Long id, Long pid, Process process);
+
+    List<Process> findAll();
 }

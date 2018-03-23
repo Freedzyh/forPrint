@@ -5,10 +5,16 @@ import com.bidanet.bdcms.core.vo.Page;
 import com.github.xuejike.springboot.print.controller.BaseAdminController;
 import com.github.xuejike.springboot.print.entity.Process;
 import com.github.xuejike.springboot.print.service.ProcessService;
+import freemarker.ext.beans.HashAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by xuemingyu 2018/3/22
@@ -53,5 +59,25 @@ public class ProcessAdminController extends BaseAdminController {
     public ApiResult delete(Long id) {
         processService.delete(id);
         return ApiResult.success("删除成功");
+    }
+
+    @RequestMapping("/findAll")
+    @ResponseBody
+    public ApiResult findAll() {
+      /*  List<Process> list = processService.findAll();
+        Map<String, List<Process>> map = new HashMap<>();
+        List<Process> pList = new ArrayList<>();
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getPid() == 0) {
+                pList.add(list.get(i));
+                list.remove(i);
+            }
+        }
+        for (int j = 0; j < pList.size(); j++) {
+            for (int i = 0; i < list.size(); i++) {
+
+            }
+        }*/
+        return null;
     }
 }

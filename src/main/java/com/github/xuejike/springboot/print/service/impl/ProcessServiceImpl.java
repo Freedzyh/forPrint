@@ -66,4 +66,21 @@ public class ProcessServiceImpl extends BaseServiceImpl<Process> implements Proc
     protected JpaRepository<Process, Long> getDao() {
         return processDao;
     }
+
+    @Override
+    public void addSubclass(Long id, Long pid, Process process) {
+        if (pid == null) {
+            process.setPid(0l);
+            processDao.save(process);
+        } else {
+            process.setPid(id);
+            processDao.save(process);
+        }
+    }
+
+    @Override
+    public List<Process> findAll() {
+
+        return processDao.findAll();
+    }
 }

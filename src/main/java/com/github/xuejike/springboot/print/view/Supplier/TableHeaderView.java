@@ -13,7 +13,7 @@ import lombok.Data;
 @JkForm(btns = {
         @JkButton(value = "搜索", type = JkButtonType.submit),
         @JkButton(value = "清空", type = JkButtonType.reset),
-        @JkButton(value = "添加", type = JkButtonType.dialog, url = "/admin/supplier/add"),
+        @JkButton(value = "添加", type = JkButtonType.dialog, url = "/api/admin/supplier/add"),
 })
 @Data
 public class TableHeaderView {
