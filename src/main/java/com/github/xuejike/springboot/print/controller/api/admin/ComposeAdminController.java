@@ -15,40 +15,36 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @RequestMapping("/api/admin/compose")
+@ResponseBody
 public class ComposeAdminController extends BaseAdminController {
     @Autowired
     private ComposeService composeService;
 
     @RequestMapping("/findOne")
-    @ResponseBody
     public ApiResult getCompose(Long id) {
         Compose compose = composeService.findOne(id);
         return ApiResult.success(compose);
     }
 
     @RequestMapping("/getPageData")
-    @ResponseBody
     public ApiResult getPageData(Compose compose, Page<Compose> page) {
         composeService.queryLike(compose, page);
         return ApiResult.success(page);
     }
 
     @RequestMapping("/insert")
-    @ResponseBody
     public ApiResult insert(Compose compose) {
         composeService.insert(compose);
         return ApiResult.success("添加成功");
     }
 
     @RequestMapping("/update")
-    @ResponseBody
     public ApiResult update(Compose compose) {
         composeService.update(compose);
         return ApiResult.success("更新成功");
     }
 
     @RequestMapping("/delete")
-    @ResponseBody
     public ApiResult delete(Long id) {
         composeService.delete(id);
         return ApiResult.success("删除成功");

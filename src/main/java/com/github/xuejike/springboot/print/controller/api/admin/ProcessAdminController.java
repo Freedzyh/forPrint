@@ -5,6 +5,7 @@ import com.bidanet.bdcms.core.vo.Page;
 import com.github.xuejike.springboot.print.controller.BaseAdminController;
 import com.github.xuejike.springboot.print.entity.Process;
 import com.github.xuejike.springboot.print.service.ProcessService;
+import com.github.xuejike.springboot.print.utils.TypeBean;
 import freemarker.ext.beans.HashAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,62 +23,69 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping("/api/admin/process")
+@ResponseBody
 public class ProcessAdminController extends BaseAdminController {
     @Autowired
     private ProcessService processService;
 
     @RequestMapping("/findOne")
-    @ResponseBody
     public ApiResult getProcess(Long id) {
         Process process = processService.findOne(id);
         return ApiResult.success(process);
     }
 
     @RequestMapping("/getPageData")
-    @ResponseBody
     public ApiResult getPageData(Process process, Page<Process> page) {
         processService.queryLike(process, page);
         return ApiResult.success(page);
     }
 
     @RequestMapping("/insert")
-    @ResponseBody
     public ApiResult insert(Process process) {
         processService.insert(process);
         return ApiResult.success("添加成功");
     }
 
     @RequestMapping("/update")
-    @ResponseBody
     public ApiResult update(Process process) {
         processService.update(process);
         return ApiResult.success("更新成功");
     }
 
     @RequestMapping("/delete")
-    @ResponseBody
     public ApiResult delete(Long id) {
         processService.delete(id);
         return ApiResult.success("删除成功");
     }
 
     @RequestMapping("/findAll")
-    @ResponseBody
     public ApiResult findAll() {
-      /*  List<Process> list = processService.findAll();
-        Map<String, List<Process>> map = new HashMap<>();
-        List<Process> pList = new ArrayList<>();
+        List<Process> list = processService.findAll();
+        List<TypeBean> typeBeans = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
+            //  System.out.println(list.get(i).getPid());
             if (list.get(i).getPid() == 0) {
-                pList.add(list.get(i));
-                list.remove(i);
+                TypeBean typeBean = new TypeBean();
+                typeBean.setId(list.get(i).getId());
+                typeBean.setPid(list.get(i).getPid());
+                typeBean.setName(list.get(i).getName());
+                typeBeans.add(typeBean);
             }
         }
-        for (int j = 0; j < pList.size(); j++) {
-            for (int i = 0; i < list.size(); i++) {
-
+        for (int j = 0; j < typeBeans.size(); j++) {
+            List<TypeBean> typeBeanList = new ArrayList<>();
+            for (int k = 0; k < list.size(); k++) {
+                if (typeBeans.get(j).getId() == list.get(k).getPid()) {
+                    TypeBean typeBean = new TypeBean();
+                    typeBean.setId(list.get(k).getId());
+                    typeBean.setPid(list.get(k).getPid());
+                    typeBean.setName(list.get(k).getName());
+                    typeBeanList.add(typeBean);
+                }
+                typeBeans.get(j).setList(typeBeanList);
             }
-        }*/
-        return null;
+        }
+
+        return ApiResult.success(typeBeans);
     }
 }

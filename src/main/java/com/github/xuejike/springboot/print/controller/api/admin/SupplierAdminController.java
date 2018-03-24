@@ -20,32 +20,24 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @RequestMapping("/api/admin/supplier")
+@ResponseBody
 public class SupplierAdminController extends BaseAdminController {
     @Autowired
     private SupplierService supplierService;
 
-    @RequestMapping("/index")
-    public String index(Model model) {
-        TableHeaderView tableHeaderView = new TableHeaderView();
-        return JkBuilder.tableView(TableView.class, tableHeaderView, model, "");
-    }
-
     @RequestMapping("/findOne")
-    @ResponseBody
     public ApiResult getSupplier(Long id) {
         Supplier supplier = supplierService.findOne(id);
         return ApiResult.success(supplier);
     }
 
     @RequestMapping("/getPageData")
-    @ResponseBody
     public ApiResult getPageData(Supplier supplier, Page<Supplier> page) {
         supplierService.queryLike(supplier, page);
         return ApiResult.success(page);
     }
 
     @RequestMapping("/insert")
-    @ResponseBody
     public ApiResult insert(Supplier supplier) {
         supplierService.insert(supplier);
 
@@ -53,14 +45,12 @@ public class SupplierAdminController extends BaseAdminController {
     }
 
     @RequestMapping("/update")
-    @ResponseBody
     public ApiResult update(Supplier supplier) {
         supplierService.update(supplier);
         return ApiResult.success("修改成功");
     }
 
     @RequestMapping("/delete")
-    @ResponseBody
     public ApiResult delete(Long id) {
         supplierService.delete(id);
         return ApiResult.success("删除成功");

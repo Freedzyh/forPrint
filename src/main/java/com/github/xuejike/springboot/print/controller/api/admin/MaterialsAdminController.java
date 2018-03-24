@@ -15,40 +15,36 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @RequestMapping("/api/admin/materials")
+@ResponseBody
 public class MaterialsAdminController extends BaseAdminController {
     @Autowired
     private MaterialsService materialsService;
 
     @RequestMapping("/getPageData")
-    @ResponseBody
     public ApiResult getPageData(Materials materials, Page<Materials> page) {
         materialsService.queryLike(materials, page);
         return ApiResult.success(page);
     }
 
     @RequestMapping("/findOne")
-    @ResponseBody
     public ApiResult getMaterials(Long id) {
         Materials materials = materialsService.findOne(id);
         return ApiResult.success(materials);
     }
 
     @RequestMapping("/insert")
-    @ResponseBody
     public ApiResult insert(Materials materials) {
         materialsService.insert(materials);
         return ApiResult.success("添加成功");
     }
 
     @RequestMapping("/update")
-    @ResponseBody
     public ApiResult update(Materials materials) {
         materialsService.update(materials);
         return ApiResult.success("更新成功");
     }
 
     @RequestMapping("/delete")
-    @ResponseBody
     public ApiResult delete(Long id) {
         materialsService.delete(id);
         return ApiResult.success("刪除成功");
