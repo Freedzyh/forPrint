@@ -22,16 +22,26 @@ public class User {
     @Column(name = "user_name")
     private String userName;
     /**
+     * 昵称
+     */
+    @Column(name = "nick_name")
+    private String nickName;
+    /**
      * 密码
      */
     @Column(name = "user_pwd")
-    private String userPassword;
+    private String userPassword = "123456";
     /**
      * 用户类型
      */
-    private UserType userType;
+    private UserType userType = UserType.admin;
     /**
      * 禁用状态
      */
-    private Status status;
+    private Status status = Status.use;
+    /**
+     * 公司id
+     */
+    @Column(name = "company_id")
+    private Long companyId;
 }

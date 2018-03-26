@@ -15,4 +15,5 @@ public interface UserDao extends BaseJPA<User> {
 
     User findFirstByUserName(String userName);
 
+    User findFirstByCompanyId(Long companyId);
 }

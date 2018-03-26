@@ -1,4 +1,4 @@
-package com.github.xuejike.springboot.print.controller.api.admin;
+package com.github.xuejike.springboot.print.controller.api;
 
 import com.bidanet.bdcms.core.bean.ApiResult;
 import com.bidanet.bdcms.core.vo.Page;
@@ -63,7 +63,6 @@ public class ProcessAdminController extends BaseAdminController {
         List<Process> list = processService.findAll();
         List<TypeBean> typeBeans = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
-            //  System.out.println(list.get(i).getPid());
             if (list.get(i).getPid() == 0) {
                 TypeBean typeBean = new TypeBean();
                 typeBean.setId(list.get(i).getId());

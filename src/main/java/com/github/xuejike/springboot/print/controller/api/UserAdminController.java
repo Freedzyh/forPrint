@@ -1,35 +1,44 @@
-package com.github.xuejike.springboot.print.controller.api.admin;
+package com.github.xuejike.springboot.print.controller.api;
 
 import com.bidanet.bdcms.core.bean.ApiResult;
+import com.bidanet.bdcms.core.bean.EntityToVo;
+import com.bidanet.bdcms.core.common.EntityTool;
 import com.bidanet.bdcms.core.driver.cache.Cache;
 import com.bidanet.bdcms.core.vo.Page;
 import com.github.xuejike.springboot.print.controller.BaseAdminController;
 import com.github.xuejike.springboot.print.driver.uc.HomeUc;
 import com.github.xuejike.springboot.print.entity.User;
+import com.github.xuejike.springboot.print.entity.vo.UserVo;
 import com.github.xuejike.springboot.print.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by xuemingyu 2018/3/23
  */
-@Controller
+@RestController
 @RequestMapping("/api/admin/user")
-@ResponseBody
 public class UserAdminController extends BaseAdminController {
     @Autowired
     private UserService userService;
     @Autowired
     HomeUc homeUc;
-    @Autowired
-    Cache cache;
 
     @RequestMapping("/findOne")
     public ApiResult findOne(Long id) {
         User user = userService.findOne(id);
         return ApiResult.success(user);
+    }
+
+    @RequestMapping("/getUserInfo")
+    public ApiResult getUserInfo() {
+        Long userUid = homeUc.getUserUid();
+        User user = userService.findOne(userUid);
+        EntityToVo entityToVo = new EntityTool().createEntityToVo(UserVo.class, user);
+        return ApiResult.success(entityToVo);
     }
 
     @RequestMapping("/getPageData")

@@ -57,7 +57,7 @@ jedis:
     pwd: YinFeng1234
     port: 6379
     timeout: 3000
-    db: 16
+    db: 15
 
 bd:
   datasource:

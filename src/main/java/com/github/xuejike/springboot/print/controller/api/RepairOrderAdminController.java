@@ -1,4 +1,4 @@
-package com.github.xuejike.springboot.print.controller.api.admin;
+package com.github.xuejike.springboot.print.controller.api;
 
 import com.bidanet.bdcms.core.bean.ApiResult;
 import com.bidanet.bdcms.core.vo.Page;

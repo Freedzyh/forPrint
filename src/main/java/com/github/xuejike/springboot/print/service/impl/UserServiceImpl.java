@@ -1,5 +1,6 @@
 package com.github.xuejike.springboot.print.service.impl;
 
+import com.bidanet.bdcms.core.exception.CheckException;
 import com.bidanet.bdcms.core.vo.Page;
 import com.bidanet.hibernate.lambda.core.LambdaCriteria;
 import com.github.xuejike.springboot.print.dao.UserDao;
@@ -71,13 +72,34 @@ public class UserServiceImpl extends BaseServiceImpl<User> implements UserServic
 
     @Override
     public void changeStatus(Long id) {
-        //   User user = userDao.findFirstById(id);
-
+        User user = userDao.findFirstById(id);
+        if (user.getStatus() == Status.disable) {
+            user.setStatus(Status.use);
+        } else {
+            user.setStatus(Status.disable);
+        }
+        userDao.save(user);
     }
 
     @Override
     public User login(String userName, String passWord) {
-        return userDao.findFirstByUserNameAndUserPassword(userName, passWord);
+        LambdaCriteria<User> lambdaCriteria = lambdaQuery.create(User.class);
+        lambdaCriteria.eq(q -> {
+            q.setUserName(userName);
+        });
+        User user = lambdaCriteria.first();
+        if (user == null) {
+            throw new CheckException("用户不存在!");
+        }
+        if (user.getStatus() == Status.disable) {
+            throw new CheckException("此用户已被禁用!");
+        }
+        if (!user.getUserPassword().equals(passWord)) {
+            throw new CheckException("密码错误!");
+        }
+        userDao.save(user);
+
+        return user;
     }
 
     @Override
