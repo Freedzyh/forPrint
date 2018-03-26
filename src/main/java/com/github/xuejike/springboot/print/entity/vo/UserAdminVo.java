@@ -26,6 +26,16 @@ public class UserAdminVo implements EntityToVo {
         User user = (User) objects[0];
         try {
             BeanUtils.copyProperties(this, user);
+            if (user.getUserType().equals(UserType.admin)) {
+                this.setUserTypeStr("管理员");
+            } else {
+                this.setUserTypeStr("用户");
+            }
+            if (user.getStatus().equals(Status.use)) {
+                this.setStatusStr("已启用");
+            } else {
+                this.setStatusStr("已禁用");
+            }
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {

@@ -1,11 +1,14 @@
 package com.github.xuejike.springboot.print.controller.admin;
 
 import com.bidanet.bdcms.core.bean.AjaxCallBack;
+import com.bidanet.bdcms.core.bean.EntityToVo;
+import com.bidanet.bdcms.core.common.EntityTool;
 import com.bidanet.bdcms.core.vo.Page;
 import com.bidanet.springmvc.demo.jkbuilder.JkBuilder;
 import com.github.xuejike.springboot.jkfaststart.common.AjaxPage;
 import com.github.xuejike.springboot.print.controller.BaseAdminController;
 import com.github.xuejike.springboot.print.entity.User;
+import com.github.xuejike.springboot.print.entity.vo.UserAdminVo;
 import com.github.xuejike.springboot.print.service.UserService;
 import com.github.xuejike.springboot.print.view.user.AddView;
 import com.github.xuejike.springboot.print.view.user.EditView;
@@ -39,7 +42,8 @@ public class UserController extends BaseAdminController {
     @ResponseBody
     public AjaxPage getPageData(User user, Page<User> page) {
         userService.queryLike(user, page);
-        return AjaxPage.success(page);
+        Page<EntityToVo> entityToVoPage = new EntityTool().getPageEntityToVo(UserAdminVo.class, page);
+        return AjaxPage.success(entityToVoPage);
     }
 
     @RequestMapping("/add")

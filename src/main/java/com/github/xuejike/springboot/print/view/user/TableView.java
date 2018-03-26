@@ -23,23 +23,23 @@ public class TableView {
     @JkColumn(title = "昵称")
     private String nickName;
     @JkColumn(title = "用户类型")
-    private UserType userTypeStr;
+    private String userTypeStr;
     @JkColumn(title = "状态")
-    private Status statusStr;
+    private String statusStr;
     @JkColumn(title = "工具栏", fixed = JkColumnAlign.right, width = 180)
     @JkToolBar(btns = {
             @JkButton(value = "启用",
                     type = JkButtonType.confirm,
                     option = "'确定启用此资源'",
                     url = "/admin/user/changeStatus?id={id}",
-                    ifExp = "d.status==false"
+                    ifExp = "d.status=='Status.disable'"
             ),
             @JkButton(value = "禁用",
                     type = JkButtonType.confirm,
                     option = "'确定禁用此资源'",
                     cssClass = "layui-btn-danger",
                     url = "/admin/user/changeStatus?id={id}",
-                    ifExp = "d.status==true"
+                    ifExp = "d.status=='Status.use'"
             ),
             @JkButton(value = "删除", type = JkButtonType.confirm,
                     option = "'确定删除此资源'"
