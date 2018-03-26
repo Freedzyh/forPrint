@@ -26,6 +26,17 @@ public class SysConfigApiController extends BaseAdminController {
         return ApiResult.success(page);
     }
 
+    @RequestMapping("/update")
+    public ApiResult update(SysConfig sysConfig) {
+        sysConfigService.update(sysConfig);
+        return ApiResult.success("修改成功");
+    }
+
+    @RequestMapping("/delete")
+    public ApiResult delete(Long id) {
+        sysConfigService.delete(id);
+        return ApiResult.success("删除成功");
+    }
 
 
 

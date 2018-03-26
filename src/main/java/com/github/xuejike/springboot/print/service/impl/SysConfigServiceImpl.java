@@ -37,7 +37,15 @@ public class SysConfigServiceImpl extends BaseServiceImpl<SysConfig> implements 
     }
 
 
+    @Override
+    public void update(SysConfig sysConfig) {
 
+    }
+
+    @Override
+    public void delete(Long id) {
+
+    }
 
 
 }
