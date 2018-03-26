@@ -23,7 +23,8 @@ public class CorsFilter extends OncePerRequestFilter {
         response.addHeader("Access-Control-Allow-Origin", "*");  //此优先级高于@CrossOrigin配置
 
 
-        response.addHeader("Access-Control-Allow-Headers", "Origin, x-requested-with, Content-Type, Accept,X-Cookie");
+//        response.addHeader("Access-Control-Allow-Headers", "Origin, x-requested-with, Content-Type, Accept,X-Cookie");
+        response.addHeader("Access-Control-Allow-Headers", "*");
 
 
         // Access-Control-Allow-Methods: 授权请求的方法（GET, POST, PUT, DELETE，OPTIONS等)
@@ -32,11 +33,6 @@ public class CorsFilter extends OncePerRequestFilter {
 
         response.addHeader("Access-Control-Max-Age", "1800");//30 min
 
-
-        if (request.getMethod().equals("OPTIONS") ) {
-            response.setStatus(HttpServletResponse.SC_OK);
-            return;
-        }
 
 
         filterChain.doFilter(request, response);

@@ -29,7 +29,7 @@ public class UserController extends BaseAdminController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/inidex")
+    @RequestMapping("/index")
     public String index(Model model) {
         TableHeaderView tableHeaderView = new TableHeaderView();
         return JkBuilder.tableView(TableView.class, tableHeaderView, model, "");
