@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/admin/user")
-public class UserAdminController extends BaseAdminController {
+public class UserApiController extends BaseAdminController {
     @Autowired
     private UserService userService;
     @Autowired

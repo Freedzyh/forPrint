@@ -24,7 +24,7 @@ import java.util.Map;
 @Controller
 @RequestMapping("/api/admin/process")
 @ResponseBody
-public class ProcessAdminController extends BaseAdminController {
+public class ProcessApiController extends BaseAdminController {
     @Autowired
     private ProcessService processService;
 

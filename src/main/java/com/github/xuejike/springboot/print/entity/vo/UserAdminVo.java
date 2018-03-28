@@ -14,6 +14,7 @@ import java.lang.reflect.InvocationTargetException;
  */
 @Data
 public class UserAdminVo implements EntityToVo {
+    private Long id;
     private String userName;
     private String nickName;
     private UserType userType;

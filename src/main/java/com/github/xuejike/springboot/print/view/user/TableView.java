@@ -32,14 +32,14 @@ public class TableView {
                     type = JkButtonType.confirm,
                     option = "'确定启用此资源'",
                     url = "/admin/user/changeStatus?id={id}",
-                    ifExp = "d.status=='Status.disable'"
+                    ifExp = "d.status=='disable'"
             ),
             @JkButton(value = "禁用",
                     type = JkButtonType.confirm,
                     option = "'确定禁用此资源'",
                     cssClass = "layui-btn-danger",
                     url = "/admin/user/changeStatus?id={id}",
-                    ifExp = "d.status=='Status.use'"
+                    ifExp = "d.status=='use'"
             ),
             @JkButton(value = "删除", type = JkButtonType.confirm,
                     option = "'确定删除此资源'"

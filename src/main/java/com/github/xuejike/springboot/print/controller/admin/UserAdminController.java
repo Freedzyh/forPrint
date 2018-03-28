@@ -28,7 +28,7 @@ import java.lang.reflect.InvocationTargetException;
  */
 @Controller
 @RequestMapping("/admin/user")
-public class UserController extends BaseAdminController {
+public class UserAdminController extends BaseAdminController {
     @Autowired
     private UserService userService;
 

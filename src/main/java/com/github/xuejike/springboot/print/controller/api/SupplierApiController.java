@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/api/admin/supplier")
 @ResponseBody
-public class SupplierAdminController extends BaseAdminController {
+public class SupplierApiController extends BaseAdminController {
     @Autowired
     private SupplierService supplierService;
 
