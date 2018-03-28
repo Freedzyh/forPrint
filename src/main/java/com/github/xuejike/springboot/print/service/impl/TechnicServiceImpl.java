@@ -35,6 +35,11 @@ public class TechnicServiceImpl extends BaseServiceImpl<Technic> implements Tech
         return technicLambdaCriteria;
     }
 
+    /***
+     *
+     * @param technic
+     * @param page
+     */
     @Override
     public void queryLike(Technic technic, Page<Technic> page) {
         LambdaCriteria<Technic> lambdaCriteria = getLambda(technic);

@@ -48,7 +48,6 @@ public class CompanyServiceImpl extends BaseServiceImpl<Company> implements Comp
         companyDao.save(company);
         User user = new User();
         user.setUserName(company.getName() + "admin");
-        //  user.setUserPassword("123456");
         user.setCompanyId(company.getId());
         user.setNickName(company.getName());
         userDao.save(user);
