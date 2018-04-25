@@ -1,0 +1,63 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolProperties",
+      "name": "jedis.pool",
+      "type": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolProperties"
+    },
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolConfigProperties",
+      "name": "jedis.pool.config",
+      "type": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolConfigProperties",
+      "defaultValue": 0,
+      "name": "jedis.pool.config.max-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolConfigProperties",
+      "defaultValue": 0,
+      "name": "jedis.pool.config.max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolConfigProperties",
+      "defaultValue": false,
+      "name": "jedis.pool.config.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolProperties",
+      "defaultValue": 0,
+      "name": "jedis.pool.db",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolProperties",
+      "name": "jedis.pool.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolProperties",
+      "defaultValue": 0,
+      "name": "jedis.pool.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolProperties",
+      "name": "jedis.pool.pwd",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.github.xuejike.springboot.jkfaststart.config.redis.JedisPoolProperties",
+      "defaultValue": 0,
+      "name": "jedis.pool.timeout",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

@@ -1,0 +1,1878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6ed2992-711c-4506-9984-f9628a09c748" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/4.7/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d7caadca-0771-480b-b7b6-37561cfa1ca2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/xl_printing_sys_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/xl_printing_sys_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin-build/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/xl_printing_sys_main.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$InputDiv$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$InputDiv$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$ajaxUrl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$formItem$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$formItem$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$formItem$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$layuiDataTable$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$layuiDataTable$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$loadLayuiTable$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$loadLayuiTable$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt$loadLayuiTable$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayUiKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayuiDataTableColConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayuiDataTableConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayuiDataTableFixed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/utils/LayuiDataTableType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/views/MenuKt$table$1$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/views/MenuKt$table$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/views/MenuKt$table$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/views/MenuKt$table$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/views/MenuKt$table$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/kotlin/views/MenuKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/JkFaststartApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/JkConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/AjaxPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/CheckValidateTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/DateTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/LambdaQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/PinyinUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/QueryDslTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/ShiroUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/VerifyCodeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/common/XmlTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/config/redis/JedisPoolConfigProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/config/redis/JedisPoolProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/config/redis/RedisConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/AdminUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/HomeAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/RoleAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/menu/AddAdminPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/menu/AdminPermissionHeader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/menu/AdminPermissionTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/role/RoleHeader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/role/RoleTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/user/AddAdminUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/user/AdminUserHeader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/user/AdminUserTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/user/AdminUserTableConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/admin/view/user/UpdateAdminUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/datasource/MenuDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/datasource/RoleDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/controller/home/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/AdminPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/AdminRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/AdminUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/QAdminPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/QAdminRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/QAdminUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/type/PermissionType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/type/PermissionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/type/Status$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain/type/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain_ext/CreationDateTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain_ext/CreationDateTimeGeneration$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain_ext/CreationDateTimeGeneration$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain_ext/CreationDateTimeGeneration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain_ext/UpdateDateTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain_ext/UpdateDateTimeGeneration$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain_ext/UpdateDateTimeGeneration$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/domain_ext/UpdateDateTimeGeneration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/repository/AdminPermissionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/repository/AdminRoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/repository/AdminUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/repository/BaseJPA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/service/AdminPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/service/AdminUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/service/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/service/impl/AdminPermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/service/impl/AdminUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/service/impl/BaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/shiro/MyFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/shiro/UserAuthenticationInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/shiro/UserRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/jkfaststart/vo/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/common/CheckUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/config/CorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/BaseAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/admin/CompanyAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/admin/TechnologyAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/admin/UserAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/ComposeApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/MaterialsApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/OrderApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/OrderDetailApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/OrderFormApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/ProcessApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/RepairOrderApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/SupplierApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/SysConfigApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/TechnicApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/controller/api/UserApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/CompanyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/ComposeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/MaaterialsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/OrderDetailDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/OrderFormDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/ProcessDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/RepairOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/SupplierDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/SysConfigDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/TechnicDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/TechnologyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/driver/cache/RedisCache$RedisExec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/driver/cache/RedisCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/driver/file/BaseFileDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/driver/file/FileDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/driver/file/LocalFileDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/driver/file/QiniuFileDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/driver/uc/HomeUc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/driver/uc/impl/HomeUserUcImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/Company.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/Compose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/Materials.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/OrderForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/Process.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QCompose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QMaterials.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QOrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QOrderForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QRepairOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QSupplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QSysConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QTechnic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QTechnology.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/QUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/RepairOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/Supplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/SysConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/Technic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/Technology.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/dto/FileDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/dto/SysTypeDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/enumType/Status$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/enumType/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/enumType/SysType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/enumType/SysType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/enumType/TechincType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/enumType/UserType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/vo/SysConfigVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/vo/UserAdminVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/entity/vo/UserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/exception/NoLoginException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/CompanyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/ComposeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/MaterialsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/OrderDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/OrderFormService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/ProcessService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/RepairOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/SupplierService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/SysConfigService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/TechnicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/TechnologyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/BaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/CompanyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/ComposeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/MaterialsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/OrderDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/OrderFormServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/ProcessServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/RepairOrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/SupplierServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/SysConfigServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/TechnicServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/TechnicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/TechnologyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/task/Jobs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/utils/JsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/utils/TechnologyType$ProcessMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/utils/TechnologyType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/utils/TypeBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/Supplier/AddView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/Supplier/EditView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/Supplier/TableHeaderView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/Supplier/TableView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/TableView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/company/AddView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/company/EditView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/company/TableHeaderView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/company/TableView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/technology/AddView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/technology/EditView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/technology/TableHeaderView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/technology/TableView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/user/AddView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/user/EditView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/user/TableHeaderView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/github/xuejike/springboot/print/view/user/TableView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/jkfaststart/domain/QAdminPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/jkfaststart/domain/QAdminRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/jkfaststart/domain/QAdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QCompose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QMaterials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QOrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QOrderForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QRepairOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QSysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QTechnic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QTechnology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/generated/com/github/xuejike/springboot/print/entity/QUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/images/img-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/images/registered-banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/images/registered-zhuce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/js/jquery-2.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/js/rem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/h5/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/jkBuilderInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/jkBuilderLib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/jkEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/picBox/css/closebutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/picBox/css/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/picBox/css/navbtns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/picBox/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/picBox/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/picBox/js/picbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/_blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/add-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/auxiliar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/btn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/children.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/data-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/folding-panel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/progress-bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/tab-card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/tips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/tree-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/demo/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/echarts/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/image/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/image/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/image/v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/image/wx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/image/zfb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/js/vip_comm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/js/vip_nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/js/vip_tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/frame/static/js/vip_table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/js/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/json/data_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/json/nav_main.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/json/nav_top_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vip/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/static/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/admin/common/addressCascade.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/admin/common/richTextEdit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/admin/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/admin/public/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/admin/user/relationTree.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/body_js_tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/form_tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/head_css_tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/home.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/table_tpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/templates/vip.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/SupplierAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl_printing_sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/UserAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/UserAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/view/company/TableHeaderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/view/company/TableHeaderView.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="xl_printing_sys" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SupplierService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/SupplierService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SupplierServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/impl/SupplierServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/UserAdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyAdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/CompanyAdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SupplierAdminController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/SupplierAdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="E:\gradle-4.7-bin\gradle-4.7" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.7" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="xl_printing_sys" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="xl_printing_sys" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'xl_printing_sys'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'xl_printing_sys'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'xl_printing_sys'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'xl_printing_sys'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'xl_printing_sys'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'xl_printing_sys'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'xl_printing_sys'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'xl_printing_sys'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the source set 'test'.kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'xl_printing_sys'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the source set 'main'.kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'xl_printing_sys'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3048151202365" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1163126648" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.10/838e8a37b1a4de41dfa046acdef26c9615f23a84/kotlin-gradle-plugin-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.10/4590f13fc4dc702a433421040bdc58bd8e9973f8/kotlin-gradle-plugin-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.9.RELEASE/eb1d7232a90469dd12946582bb9a99b84aa632c/spring-boot-gradle-plugin-1.5.9.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.9.RELEASE/4f3d6d5164784c51959db58bfc438c7ee44e0c5c/spring-boot-gradle-plugin-1.5.9.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.10/a8020c912333eb6f195fa6761a39dd493cd421ca/kotlin-gradle-plugin-api-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.10/649d2fc7c597dd4001583ebf90ffb451d2a565ed/kotlin-gradle-plugin-api-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.10/c0f90f56ebb568fe5fa4001ee1941b27cb8a2e1f/kotlin-stdlib-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.10/b9bf650516989595a5390e5a54181e16347208ac/kotlin-stdlib-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.10/7f410f5298b7756fa132cccf49b793d5f242feb1/kotlin-compiler-embeddable-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.10/649eba68c683bc722208b7cb9ffb23d93dc37895/kotlin-compiler-embeddable-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.10/f8694667592d7f7df382cbb42ef13db608a13c35/kotlin-annotation-processing-gradle-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.10/4152af9baeb52652a3abcaff73a8d5f8ba736d5a/kotlin-annotation-processing-gradle-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.10/1b2b318370a67c4e22aaea4564d072b0f801765e/kotlin-android-extensions-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.10/10eb9a3d66aa7c5e17afdf93116082018d0d4643/kotlin-android-extensions-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.10/f2d9ab22c6fcf7cba4056b6a43915b27d72fae93/kotlin-compiler-runner-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.10/d5b16cd33799465d83080df62a09638c442cec41/kotlin-compiler-runner-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.9.RELEASE/61791907844a11bcea7eca8fb8ca853c9a95421a/spring-boot-loader-tools-1.5.9.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.9.RELEASE/5ce69eaa5709ccff5b4db4a85abfae16affa107a/spring-boot-loader-tools-1.5.9.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/7bb9ab86474b9ff2e7aa8ea3609878a1750e3f90/dependency-management-plugin-1.0.3.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.10/74326516cb4782bca95cb7d7243ace213a7d218f/kotlin-script-runtime-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.10/941e197bf42d698e1cd5c47d302b753b7b1b7aec/kotlin-script-runtime-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.10/130e1d6da6fafc37b3024a60b04a6dad6ed08da/kotlin-reflect-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.10/19bc012f8c4cd6b705bd6512263777cc19bcf259/kotlin-reflect-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.10/1996c42be67f208cf8d7a6fa7319af168bfbd77/kotlin-build-common-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.10/9da5a326205f27fb19a1654bcfb18b9f166caf33/kotlin-build-common-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.10/ec7f155f944d40eb4b61527a387493c51dc37324/kotlin-daemon-client-1.2.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.10/651826c1a1d1a441c48e04f58dc98dff6752abb7/kotlin-daemon-client-1.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.13.RELEASE/fc9cf4f489515d429b005ee86ef105a704a94016/spring-core-4.3.13.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.13.RELEASE/eea18d7f4d01f1baa1b6728b678b5a6fe23c61f6/spring-core-4.3.13.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="xl_printing_sys" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/ant-1.9.9.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-base-services-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-build-option-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-cli-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-core-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-core-api-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-docs-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-launcher-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-logging-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-messaging-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-model-core-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-native-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-process-services-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-resources-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/groovy-all-2.4.12.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="E:/gradle-4.7-bin/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/common/CheckUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/dao/CompanyDao.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d7caadca-0771-480b-b7b6-37561cfa1ca2/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/CompanyAdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/view/company/TableHeaderView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/impl/CompanyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/UserAdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/SupplierAdminController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.0.5" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="905" />
+    <option name="y" value="504" />
+    <option name="width" value="956" />
+    <option name="height" value="869" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="Supplier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xl_printing_sys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xl_printing_sys" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.55287355" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JkFaststartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xl_printing_sys_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.xuejike.springboot.JkFaststartApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6ed2992-711c-4506-9984-f9628a09c748" name="Default" comment="" />
+      <created>1524103414373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524103414373</updated>
+      <workItem from="1524103420191" duration="2267000" />
+      <workItem from="1524105710786" duration="17594000" />
+      <workItem from="1524152179842" duration="735000" />
+      <workItem from="1524186878930" duration="15861000" />
+      <workItem from="1524446439680" duration="17950000" />
+      <workItem from="1524619039728" duration="5311000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59718000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.24471635" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" sideWeight="0.50071734" side_tool="true" weight="0.21748401" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.24471635" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32925472" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49928263" visible="true" weight="0.20895523" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.11673774" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3381535" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32925472" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3381535" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.24471635" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32925472" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.24471635" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32925472" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32925472" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.11673774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928263" visible="true" weight="0.2260128" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" sideWeight="0.50071734" side_tool="true" weight="0.21748401" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vip/demo/login2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/entity/enumType/TechincType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/entity/enumType/SysType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/driver/cache/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1804">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/task/Jobs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xuejike/bd_framework_core/v0.1.5.9_starter/2dcf36739fb1c0c1c0560efeb59379458dc61967/bd_framework_core-v0.1.5.9_starter.jar!/com/bidanet/bdcms/core/bean/ApiResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/BaseAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.13.RELEASE/d225d6480b69dc70a04e332a348b448bf276f7f3/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/common/CheckUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/config/CorsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/jkfaststart/common/AjaxPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xuejike/spring_xuejike_tpl/b712b0e/4f315d5cccdd3f39580575a99f88b86ba1f08c52/spring_xuejike_tpl-b712b0e.jar!/com/bidanet/springmvc/demo/jkbuilder/type/impl/TextFormFieldImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/TechnologyAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xuejike/spring_xuejike_tpl/b712b0e/4f315d5cccdd3f39580575a99f88b86ba1f08c52/spring_xuejike_tpl-b712b0e.jar!/com/bidanet/springmvc/demo/jkbuilder/JkBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="313" column="39" selection-start-line="313" selection-start-column="39" selection-end-line="313" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/view/company/EditView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/view/Supplier/TableHeaderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/entity/RepairOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/view/company/TableView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/view/company/TableHeaderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/exception/NoLoginException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/driver/uc/HomeUc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/driver/uc/impl/HomeUserUcImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/JkFaststartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/impl/CompanyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xl_printing_sys.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/entity/enumType/UserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/entity/enumType/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xuejike/hibernate-lambda-query/aa3240ab9e/496e1bd3281e46ea37e303edb91497cd3bbe331a/hibernate-lambda-query-aa3240ab9e.jar!/com/bidanet/hibernate/lambda/core/LambdaCriteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2156">
+          <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xuejike/spring_xuejike_tpl/b712b0e/4f315d5cccdd3f39580575a99f88b86ba1f08c52/spring_xuejike_tpl-b712b0e.jar!/com/bidanet/springmvc/demo/jkbuilder/annotation/JkPlaceholder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/view/user/AddView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.xuejike/bd_framework_core/v0.1.5.9_starter/2dcf36739fb1c0c1c0560efeb59379458dc61967/bd_framework_core-v0.1.5.9_starter.jar!/com/bidanet/bdcms/core/bean/EntityToVo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/entity/vo/UserAdminVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/IllegalAccessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/IllegalAccessError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/impl/SupplierServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/SupplierService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/UserAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/CompanyAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/xuejike/springboot/print/controller/admin/SupplierAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (xl_printing_sys_main)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.55287355" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>xl_printing_sys-feature-wanglu</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>xl_printing_sys</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.github.xuejike:spring-boot-shiro:81640ec</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.55287355" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

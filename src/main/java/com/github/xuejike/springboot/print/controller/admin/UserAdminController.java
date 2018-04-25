@@ -38,6 +38,8 @@ public class UserAdminController extends BaseAdminController {
         return JkBuilder.tableView(TableView.class, tableHeaderView, model, "");
     }
 
+
+
     @RequestMapping("/getPageData")
     @ResponseBody
     public AjaxPage getPageData(User user, Page<User> page) {

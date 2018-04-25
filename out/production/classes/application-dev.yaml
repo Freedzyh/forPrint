@@ -1,0 +1,67 @@
+spring:
+  datasource:
+    name: jk-fast-start
+    url: jdbc:mysql://116.62.52.225:3306/print_test?useUnicode=true&characterEncoding=utf-8
+    username: print
+    password: print123456
+
+
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    properties:
+      jadira:
+        usertype:
+          autoRegisterUserTypes: true
+  freemarker:
+    allow-request-override: true
+    allow-session-override: true
+    expose-request-attributes: true
+    expose-session-attributes: true
+    expose-spring-macro-helpers: true
+
+
+shiro:
+  realm-class: com.github.xuejike.springboot.jkfaststart.shiro.UserRealm
+  login-url: /admin/public/login
+#  unauthorized-url: /403.html
+  success-url: /admin/index
+  sign-in:
+    user-param: username
+    password-param: pwd
+  hash-iterations: 1 #加密迭代次数，强制设为至少1次（即使设置0或负数）
+  hash-algorithm-name: MD5 #加密算法名称，如：MD2/SHA-1/SHA-256/SHA-384/SHA-512
+  filters:
+      myfilter: com.github.xuejike.springboot.jkfaststart.shiro.MyFilter
+  filter-chain-definitions: #默认为空，一般如下配置
+      /admin/public/logout: logout
+      /admin/**: authc,myfilter
+      /**: anon
+  retry-max: 100
+
+#redis
+jedis:
+  pool:
+    config:
+      max-idle: 20
+      max-total: 600
+      test-on-borrow: true
+    host: 116.62.52.225
+    pwd: YinFeng1234
+    port: 6379
+    timeout: 3000
+    db: 15
+
+bd:
+  datasource:
+    druid:
+      enabled: true
+#server:
+ # port: 8081

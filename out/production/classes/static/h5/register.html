@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <title>派福注册</title>
+    <script src="./js/rem.js"></script>
+    <script src="./js/jquery-2.0.0.min.js"></script>
+    <script src="./js/vue.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+<div id="register" class="register">
+    <div class="register-banner text-center">
+        <img src="./images/registered-banner.png" alt="注册banner">
+    </div>
+    <div class="register-info">
+        <div class="register-img text-center">
+            <img src="./images/registered-zhuce.png" alt="注册派福">
+        </div>
+        <div class="register-input">
+            <div class="phone">
+                手机号码:<input v-model.trim="form.phone" type="tel" placeholder="请输入手机号码">
+            </div>
+            <div class="img-code">
+                图形验证:<input v-model.trim="inputValue" type="text" placeholder="请输入验证码">
+                <span @click="pushCode"><img :src="imgCode" alt="图形验证"></span>
+            </div>
+            <div class="message">
+                短信验证:<input v-model.trim="form.smsCode" type="text" placeholder="请输入验证码">
+                <span @click="sendSms">{{ sendSmsTime > 0 ? sendSmsTime : '发送验证码' }}</span>
+            </div>
+            <div class="set-password">
+                设置密码:<input v-model.trim="form.pwd" type="password" placeholder="密码长度至少六位">
+            </div>
+            <div class="referee-tel" style="letter-spacing: 0;border-bottom: 0;">
+                推荐人手机: <input v-model.trim="recommedPhone" type="tel" placeholder="推荐人手机号" readonly>
+            </div>
+        </div>
+    </div>
+    <div class="go-register">
+        <button @click="register" class="text-center">立即注册</button>
+    </div>
+</div>
+<script>
+    new Vue({
+        el: '#register',
+        data: {
+            imgCode: '',
+            imgCodeUrl: '',
+            inputValue: '',
+            uuid: '',
+            sendSmsTime: 0,
+            sendSmsInterval: false,
+            recommedPhone:"",
+            form: {
+                phone: '',
+                pwd: '',
+                smsCode: '',
+                userType: '',
+                shareCode: ''
+            }
+        },
+        methods: {
+            getQuery: function getQueryStringByName(name) {
+                var result = location.search.match(new RegExp("[\?\&]" + name + "=([^\&]+)", "i"));
+                if (result == null || result.length < 1) {
+                    return "";
+                }
+                return result[1];
+            },
+            getUuid: function () {
+                return Date.parse(new Date());
+            },
+            pushCode: function () {
+                this.uuid = this.getUuid();
+                this.imgCode =window.location.protocol + '//' + window.location.host+'/api/public/sms/getPicVerificationCode?uuid=' + this.uuid;
+            },
+            getRecommendPhone:function () {
+                var vm=this;
+                $.ajax({
+                    type: "post",
+                    url: window.location.protocol + '//' + window.location.host+"/api/public/user/getPhoneByShareCode",
+                    data: this.form,
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.statusCode == 200) {
+                            console.log(data);
+                            vm.recommedPhone=data.data;
+                        }else {
+                            alert(data.message);
+                        }
+                    },
+                    error: function (error) {
+                        alert(error);
+                    }
+                });
+            },
+            sendSms: function () {
+                var vm = this;
+                if (!this.form.phone) {
+                    alert('手机号不能为空');
+                    return false;
+                }
+                if (!/^1[0-9][0-9]{9}$/.test(this.form.phone)) {
+                    alert('手机格式不正确');
+                    return false;
+                }
+                if (!this.inputValue) {
+                    alert('图片验证码不能为空');
+                    return false;
+                }
+                if(!this.form.shareCode){
+                    alert('分享码不能为空');
+                    return false;
+                }
+                if(!this.form.userType){
+                    alert('用户类型不能为空');
+                    return false;
+                }
+                if (this.sendSmsTime <= 0) {
+                    $.ajax({
+                        type: "get",
+                        url: window.location.protocol + '//' + window.location.host+"/api/public/sms/getSmsCode",
+                        data: {
+                            imageCode: this.inputValue,
+                            uuid: this.uuid,
+                            mobile: this.form.phone
+                        },
+                        dataType: "json",
+                        success: function (data) {
+                            if (data.statusCode == 200) {
+                                vm.sendSmsTime = 60;
+                                vm.sendSmsInterval = setInterval(function () {
+                                    vm.sendSmsTime--;
+                                    if (vm.sendSmsTime <= 0) {
+                                        clearInterval(vm.sendSmsInterval);
+                                    }
+                                }, 1000)
+                            }
+                        },
+                        error: function (error) {
+                            alert(error);
+                        }
+                    });
+                }
+            },
+            register: function () {
+                if (this.verification()) {
+                    $.ajax({
+                        type: "post",
+                        url: window.location.protocol + '//' + window.location.host+"/api/public/user/webRegister",
+                        data: this.form,
+                        dataType: "json",
+                        success: function (data) {
+                            if (data.statusCode == 200) {
+                                console.log(data);
+                                location.reload();
+                                alert('注册成功');
+                            }else {
+                                alert(data.message);
+                            }
+                        },
+                        error: function (error) {
+                            alert(error);
+                        }
+                    });
+                }
+            },
+            // 表单验证
+            verification: function () {
+                if (!this.form.phone) {
+                    alert('手机号不能为空');
+                    return false;
+                }
+                if (!/^1[0-9][0-9]{9}$/.test(this.form.phone)) {
+                    alert('手机格式不正确');
+                    return false;
+                }
+                if (!this.inputValue) {
+                    alert('图形码不能为空');
+                    return false;
+                }
+                if (!this.form.smsCode) {
+                    alert('短信验证码不能为空');
+                    return false;
+                }
+                if (!this.form.pwd) {
+                    alert('密码不能为空');
+                    return false;
+                }
+                if (this.form.pwd.length < 6) {
+                    alert('密码长度小于六位');
+                    return false;
+                }
+                return true;
+            }
+        },
+        mounted: function () {
+            this.pushCode();
+            this.form.userType = this.getQuery("userType");
+            this.form.shareCode = this.getQuery("shareCode");
+            this.getRecommendPhone();
+        }
+    })
+</script>
+</body>
+</html>

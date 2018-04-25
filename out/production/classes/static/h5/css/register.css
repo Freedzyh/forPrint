@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.register-banner {
+    margin-bottom: 0.6rem;
+}
+
+.register-banner img {
+    width: 7.5rem;
+    height: 5.7rem
+}
+
+.register-info {
+    position: relative;
+    width: 6.77rem;
+    height: 4.93rem;
+    border-radius: 5px;
+    border: solid 2px #d6d3d6;
+    margin: 0 auto;
+}
+
+.register-img {
+    height: 0.7rem;
+    margin-top: -0.4rem;
+}
+
+.register-img img {
+    width: 3.62rem;
+    height: 0.7rem;
+}
+
+.register-input {
+    margin-top: 0.3rem;
+}
+
+.register-input div {
+    position: relative;
+    margin: 0 auto;
+    width: 6.08rem;
+    height: 0.83rem;
+    line-height: 0.83rem;
+    border-bottom: solid 2px #e5e2e6;
+    font-size: 0.28rem;
+    color: #333;
+    letter-spacing: 0.07rem;
+}
+
+.register-input div input {
+    width: 2.4rem;
+    font-size: 0.28rem;
+    margin-left: 0.62rem;
+}
+
+.img-code span {
+    position: absolute;
+    top: 0.275rem;
+    right: 0;
+    width: 0.82rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    display: inline-block;
+}
+.img-code span img {
+    width: 0.82rem;
+    height: 0.28rem;
+}
+
+.message span {
+    position: absolute;
+    right: 0;
+    top: 0.275rem;
+    width: 1.5rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    display: inline-block;
+    letter-spacing: 0;
+    color: #ccc;
+}
+
+input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 0.28rem;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+    font-size: 0.28rem;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc;
+    font-size: 0.28rem;
+}
+
+.go-register {
+    width: 6.77rem;
+    margin: 0.67rem auto 0.55rem auto;
+}
+
+.go-register button {
+    width: 6.77rem;
+    height: 0.92rem;
+    line-height: 0.92rem;
+    background-color: #ef3e38;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.32rem;
+    letter-spacing: 0.06rem;
+}
+
+
+
+
+
+
+
+
